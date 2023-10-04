@@ -1,0 +1,15 @@
+.conatctCard{
+    width: 250px;
+    background-color: darkcyan;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    color: aliceblue;
+ 
+}
+.h1{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
