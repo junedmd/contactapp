@@ -1,10 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .conatctCard{
     width: 250px;
     background-color: darkcyan;
-    padding: 5px;
+    padding: 20px;
     border: 1px solid black;
     border-radius: 15px;
-    margin: 10px;
+    margin: 10px auto;
     color: aliceblue;
  
 }

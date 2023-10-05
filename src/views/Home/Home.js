@@ -6,11 +6,10 @@ export default function Home(){
     const [contacts ,setContacts] = useState(phoneBook);
     const [ search ,Setsearch] = useState("")
    
-
-
     return(
         <>
-        <h1> juned</h1>
+        <div className="container"> 
+        <h1 className="p">  My Contacts </h1>
         <input  placeholder="search"
           className="search"
            value={search}
@@ -34,19 +33,22 @@ export default function Home(){
 
            
         }
-
-
+        <div className="slider"> 
        {
         contacts.map( (contactDetails)=>{
         const {name ,mobile}= contactDetails;
            return (
             <>
-            <Contact name ={name}  mobile={mobile}/>
+            
+              <Contact name ={name}  mobile={mobile}/>
+           
             </>
            )  
 
        })
        }
+         </div>
+       </div>
         </>
     )
 }

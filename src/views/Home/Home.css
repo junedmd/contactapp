@@ -1,9 +1,32 @@
+
+    
 .search{
     display: block;
-   
+   margin: 10px auto;
     padding: 15px ;
    border-radius: 10px;
-   width: 400px;
+   width: 300px;
    font-size: 20px;
 
+}
+.container{
+    display: block;
+    background-color: darksalmon;
+    height: 100vh;
+   
+}
+
+.p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+
+}
+.slider{
+    height: 600px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+.slider::-webkit-slider{
+    width: 0px;
 }
